@@ -3,7 +3,7 @@ name: Fetch Seoul Weather Data per 5minute
 
 on:
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 jobs:
   fetch_weather_seoul_5minute:
