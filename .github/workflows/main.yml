@@ -6,7 +6,7 @@ on:
     - cron: "*/5 * * * *"
   workflow_dispatch:
 jobs:
-  fetch_weather_seoul_5m:
+  fetch_weather_seoul_5minute:
     runs-on: ubuntu-latest
 
     steps:
